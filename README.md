@@ -1,12 +1,44 @@
-# React + Vite
+# 📝 React Context API To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern To-Do List app built with **React** and **Tailwind CSS**.  
+This project was created to understand and refresh the **Context API** in React—and, honestly, because I just wanted a to-do list!
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add, edit, complete, and delete todos
+- Persistent storage with `localStorage`
+- Clean, responsive UI with Tailwind CSS
+- All state and actions managed globally using React Context API
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/kumar-sahani/contextAPIproject.git
+   cd CONTEXTAPI
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in your browser:**
+   ```
+   http://localhost:5173
+   ```
+
+## 📚 Why Context API?
+
+React's Context API provides a way to share values (like state and functions) between components without prop drilling.  
+This project demonstrates how to use Context for global state management in a real-world scenario.
+
+---
