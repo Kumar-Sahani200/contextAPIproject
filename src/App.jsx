@@ -5,6 +5,7 @@ import ToDoForm from "./components/ToDoForm";
 import ToDoItem from "./components/ToDoItem";
 import { ToDoProvider } from "./contexts";
 import { useEffect, useState } from "react";
+import Footer from "./components/partials/footer";
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -57,6 +58,7 @@ function App() {
           </div>
         );
       })}
+      <Footer />
     </ToDoProvider>
   );
 }
