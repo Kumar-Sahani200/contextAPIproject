@@ -10,6 +10,12 @@ This project was created to understand and refresh the **Context API** in Reactâ
 - Clean, responsive UI with Tailwind CSS
 - All state and actions managed globally using React Context API
 
+**Website is live:**
+
+```bash
+https://rawnodes.vercel.app/
+```
+
 ## ðŸš€ Getting Started
 
 1. **Clone the repository:**

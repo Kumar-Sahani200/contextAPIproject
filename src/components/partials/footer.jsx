@@ -23,7 +23,7 @@ const Footer = () => (
         href="https://www.instagram.com/schrodinger_mind/"
         target="_blank"
         rel="noopener noreferrer"
-        className="hover:text-pink-400 transition-colors"
+        className="transition-colors"
         aria-label="Instagram"
       >
         <i className="fa-brands fa-instagram"></i> Instagram
@@ -32,7 +32,7 @@ const Footer = () => (
         href="https://sahani.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
-        className="hover:text-green-400 transition-colors"
+        className="transition-colors"
         aria-label="Personal Website"
       >
         <i className="fa-solid fa-globe"></i> Personal Website
@@ -40,7 +40,7 @@ const Footer = () => (
     </div>
     <div className="text-xs text-gray-300 mt-2">
       &copy; {new Date().getFullYear()} Kumar Sahani
-      <span className="text-red-400"> 🍻</span>
+      <span className=""> 🍻</span>
     </div>
   </footer>
 );
